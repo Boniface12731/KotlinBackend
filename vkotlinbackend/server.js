@@ -31,7 +31,7 @@ app.get('/api/people/:id', (req, res) => {
 });
 
 //start  the  server 
-app.listen(port, () => {
-    console.log(`Server is Running on PORT:- ${port}`);
-});
+    app.listen(port, () => {
+        console.log(`Server is Running on PORT:- ${port}`);
+    });
 
